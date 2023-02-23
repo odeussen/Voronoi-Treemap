@@ -17,7 +17,7 @@ flare.analytics.cluster.HierarchicalCluster,6714
 flare.analytics.cluster.MergeEdge,743
 flare.analytics.graph,
 ...
-
+```
 The file descrbes a tree structure with leaves having a size. Sizes are relative in the Voronoi Treemap, 
 so the sizes of all leaves belonging to an internal node (in case of describing a file system, a directory) 
 are summed up for the directory. The whole tree is shown as partition of a circle.
