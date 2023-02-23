@@ -22,3 +22,5 @@ so the sizes of all leaves belonging to an internal node (in case of describing 
 are summed up for the directory. The whole tree is shown as partition of a circle.
 
 The output of the program for data/flare-2.csv are in data/flare-2.pdf and data/flare-2.svg 
+
+![data/flare-2.svg](/data/flare-2.svg)
