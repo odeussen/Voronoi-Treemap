@@ -6,7 +6,7 @@ diagrams, which are much faster to compute, but have straight lines.
 An example of a CSV-file is data/flare-2.csv, a standard file for visualizations of hierachical data.
 Important: the file has to start with "name,size" to indicate the pairs in each line
 Here the first lines of the CSV-file: 
-
+```
 name,size
 flare,
 flare.analytics,
@@ -17,6 +17,7 @@ flare.analytics.cluster.HierarchicalCluster,6714
 flare.analytics.cluster.MergeEdge,743
 flare.analytics.graph,
 ...
+
 The file descrbes a tree structure with leaves having a size. Sizes are relative in the Voronoi Treemap, 
 so the sizes of all leaves belonging to an internal node (in case of describing a file system, a directory) 
 are summed up for the directory. The whole tree is shown as partition of a circle.
