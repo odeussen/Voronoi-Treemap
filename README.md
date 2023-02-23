@@ -3,7 +3,12 @@ Processing code to create a Voronoi Treemap from a CSV-file. Output is to a PDF-
 In contrast to other code here the lines between cells are curves. Other code typically creates power 
 diagrams, which are much faster to compute, but have straight lines.
 
-An example of a CSV-file is data/flare-2.csv, a standard file for visualizations of hierachical data.
+Please install processing from processing.org for running and editing the program. After installation 
+open the editor and select "voronoi_treemap.pde" as the main file. 
+
+If you don't want to install processing, running versions for mac, windows, linux are in the zip files
+
+An example of an input CSV-file is data/flare-2.csv, a standard file for visualizations of hierachical data.
 Important: the file has to start with "name,size" to indicate the pairs in each line
 Here the first lines of the CSV-file: 
 ```
